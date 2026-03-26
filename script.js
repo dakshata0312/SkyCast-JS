@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
       descriptionDisplay.textContent = `Weather : ${weather[0].description}`;
 
       //unlock the display...
+      
 
       weatherInfo.classList.remove("hidden");
       errorMessage.classList.add("hidden");
